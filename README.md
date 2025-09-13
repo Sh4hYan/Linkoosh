@@ -1,17 +1,11 @@
 # Linkoosh
-
-**Linkoosh** – A powerful Telegram bot to deliver high-quality videos, audio, and media from Instagram, YouTube, SoundCloud, and more which works without **FFMPEG**! Reliable, Free, Fast, and Easy to Use! 🚀
 > This is the **initial release**! Many more exciting features are coming soon. 🚦
----
 
 ## Features (Now)
 
-- 📸 Download videos and photos from **Instagram** (posts, reels, IGTV, live links)  
-- ▶️ Download videos and audio from **YouTube** (videos, shorts, live streams, playlists)  
-- 🎵 Download tracks from **SoundCloud** (Also support for short links: `on.soundcloud.com`)  
+- 📸🎵▶️ Download any audio, videos and photos from **Instagram**, **YouTube** and **SoundCloud**
 - ⚡ Fast, reliable, and easy to use  
-- 📤 Supports streaming files directly in Telegram  
-- 🗑️ Automatic cleanup of temporary files after download  
+- 📤 Supports streaming files directly in Telegram
 - ❌ Works without FFMPEG !!! 
 
 ---
@@ -61,37 +55,6 @@ Run the bot:
 ```bash
 python main.py
 ```
-
-**How to use:**
-
-1. Start the bot: `/start`  
-2. Send a link from **Instagram**, **YouTube**, **SoundCloud** and ...
-3. The bot will download and send the media directly to you  
-4. Only one download at a time per chat to prevent overload  
-
----
-
-## Supported Links
-
-**📸 Instagram:**  
-- Posts: `https://www.instagram.com/p/...`  
-- Reels: `https://www.instagram.com/reel/...`  
-- IGTV: `https://www.instagram.com/tv/...`  
-- Live: `https://www.instagram.com/live/...`  
-
-**▶️ YouTube:**  
-- Videos: `https://www.youtube.com/watch?v=...`  
-- Shorts: `https://www.youtube.com/shorts/...`  
-- Live streams: `https://www.youtube.com/live/...`  
-- Playlists: `https://www.youtube.com/playlist?list=...`  
-- Short links: `https://youtu.be/...`  
-
-**🎵 SoundCloud:**  
-- Normal links: `https://soundcloud.com/...`  
-- Short links: `https://on.soundcloud.com/...`  
-- Mobile links: `https://m.soundcloud.com/...`  
-- Other subdomains: `https://www.soundcloud.com/...`  
-
 ---
 
 ## Upcoming Features (Future)
