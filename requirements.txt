@@ -1,2 +1,5 @@
 telethon==1.29.3
+
 yt-dlp==2025.9.13
+
+gallery-dl
