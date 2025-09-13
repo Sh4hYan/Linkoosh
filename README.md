@@ -1,18 +1,18 @@
 # Linkoosh
 
-**Linkoosh** – A powerful Telegram bot to deliver high-quality videos, audio, and media from Instagram, YouTube, SoundCloud, and more. Reliable, Free, Fast, and Easy to Use! 🚀
-
+**Linkoosh** – A powerful Telegram bot to deliver high-quality videos, audio, and media from Instagram, YouTube, SoundCloud, and more which works without **FFMPEG**! Reliable, Free, Fast, and Easy to Use! 🚀
+> This is the **initial release**! Many more exciting features are coming soon. 🚦
 ---
 
-## Features
+## Features (Now)
 
 - 📸 Download videos and photos from **Instagram** (posts, reels, IGTV, live links)  
 - ▶️ Download videos and audio from **YouTube** (videos, shorts, live streams, playlists)  
-- 🎵 Download tracks from **SoundCloud** (support for short links: `on.soundcloud.com`)  
+- 🎵 Download tracks from **SoundCloud** (Also support for short links: `on.soundcloud.com`)  
 - ⚡ Fast, reliable, and easy to use  
 - 📤 Supports streaming files directly in Telegram  
 - 🗑️ Automatic cleanup of temporary files after download  
-- ❌ Works without FFMPEG  
+- ❌ Works without FFMPEG !!! 
 
 ---
 
@@ -59,13 +59,13 @@ ADMINS = None   # Optional
 Run the bot:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 **How to use:**
 
 1. Start the bot: `/start`  
-2. Send a link from **Instagram**, **YouTube**, or **SoundCloud**  
+2. Send a link from **Instagram**, **YouTube**, **SoundCloud** and ...
 3. The bot will download and send the media directly to you  
 4. Only one download at a time per chat to prevent overload  
 
@@ -94,14 +94,12 @@ python bot.py
 
 ---
 
-## Upcoming Features
+## Upcoming Features (Future)
 
 - 🎶 Spotify downloads  
 - 📹 Support for other media platforms  
 - 👥 Admin panel for channel/group controls  
 - ⚡ Improved performance and multi-download support  
-
-> This is the **initial release**! Many more exciting features are coming soon.
 
 ---
 
